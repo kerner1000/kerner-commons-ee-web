@@ -1,0 +1,2 @@
+Required libs:
+	kerner-commons
