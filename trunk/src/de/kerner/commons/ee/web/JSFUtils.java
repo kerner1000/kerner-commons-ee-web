@@ -11,6 +11,11 @@ public class JSFUtils {
 				new FacesMessage(t.getLocalizedMessage()));
 	}
 	
+	public static void publishError(Throwable t, FacesContext context) {
+		context.addMessage(null,
+				new FacesMessage(t.getLocalizedMessage()));
+	}
+	
 	public static void publishMessage(String string) {
 		FacesContext.getCurrentInstance().addMessage(null,
 				new FacesMessage(string));	
