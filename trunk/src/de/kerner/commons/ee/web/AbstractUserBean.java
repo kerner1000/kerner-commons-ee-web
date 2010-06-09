@@ -1,10 +1,7 @@
 package de.kerner.commons.ee.web;
 
-import java.io.Serializable;
 
-public abstract class AbstractUserBean implements Serializable {
-
-	private static final long serialVersionUID = 5660659333319105816L;
+public abstract class AbstractUserBean {
 
 	private String username;
 
